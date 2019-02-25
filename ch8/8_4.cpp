@@ -3,6 +3,7 @@
 using namespace std;
 #include <cstring>
 #include <cstdio>
+//?
 struct stringy {
 	char * str;
 	int ct;
