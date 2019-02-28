@@ -14,6 +14,7 @@ std::ostream &operator << ( std::ostream & os, complex & t) {
 std::istream & operator >> ( std::istream & is, complex & t) {
 	std::cout << "real: ";
 	is >> t.x;
+	if( !is ) return is; 
 	std::cout << "imaginary: ";
 	is >> t.y;
 	return is;
